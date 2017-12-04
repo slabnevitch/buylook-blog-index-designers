@@ -267,7 +267,7 @@
   font-size: 0; }
   .designers-brands__list li {
     display: inline-block;
-    margin: 0 3.5625rem;
+   width: 194px;
     margin-bottom: 15px; }
   .designers-brands__list a {
     color: #000;
