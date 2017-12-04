@@ -253,7 +253,10 @@ $(function() {
 			$('#car-banner.owl-carousel .owl-dots').appendTo('.index-slider-nav');
 		}
 	// end of Owl
-
+		
+		$('.blog-card-item__video-container').click(function(e) {
+			$(this).find('.blog-card-item__play-icon').fadeOut();
+		});
 	// Tooltipster
 	var tooltipCart = $('.tooltip-cart').tooltipster({
 		contentCloning: true,
